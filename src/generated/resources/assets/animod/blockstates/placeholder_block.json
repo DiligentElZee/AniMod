@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "animod:block/placeholder_block"
+    }
+  }
+}

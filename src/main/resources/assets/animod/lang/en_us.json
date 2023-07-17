@@ -1,0 +1,15 @@
+{
+  "item.animod.placeholder": "Placeholder",
+  "item.animod.small_placeholder": "Small Placeholder",
+  "block.animod.placeholder_block": "Placeholder Block",
+  "block.animod.placeholder_ore": "Placeholder Ore",
+  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "block.animod.wip_log": "WIP Log",
+  "block.animod.stripped_wip_log": "Stripped WIP Log",
+  "block.animod.wip_wood": "WIP Wood",
+  "block.animod.stripped_wip_wood": "Stripped WIP Wood",
+  "block.animod.wip_planks": "WIP Planks",
+  "block.animod.wip_sapling": "WIP Sapling",
+  "block.animod.wip_leaves": "WIP Leaves"
+}
