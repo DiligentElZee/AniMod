@@ -1,5 +1,6 @@
 package net.mccreators.animod.worldgen;
 
+
 import net.mccreators.animod.AniMod;
 import net.mccreators.animod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
@@ -28,6 +29,7 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
+
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(AniMod.MOD_ID, name));

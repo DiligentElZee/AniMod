@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "animod:block/stripped_wip_log",
-    "side": "animod:block/stripped_wip_log"
-  }
-}

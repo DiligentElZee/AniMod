@@ -3,6 +3,7 @@ package net.mccreators.animod.block;
 import net.mccreators.animod.AniMod;
 import net.mccreators.animod.block.custom.ModFlammableRotatedPillarBlock;
 import net.mccreators.animod.item.ModItems;
+import net.mccreators.animod.worldgen.tree.WIPTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -79,7 +80,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> WIP_SAPLING = registerBlock("wip_sapling",
-            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new WIPTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

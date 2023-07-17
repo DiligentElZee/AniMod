@@ -28,7 +28,6 @@ public class ModPlacedFeatures {
                         ModBlocks.WIP_SAPLING.get()));
     }
 
-
     private static ResourceKey<PlacedFeature> createKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(AniMod.MOD_ID, name));
     }
