@@ -21,7 +21,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.PLACEHOLDER);
         simpleItem(ModItems.SMALL_PLACEHOLDER);
+        saplingItem(ModBlocks.WIP_SAPLING);
     }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(AniMod.MOD_ID,"block/" + item.getId().getPath()));
+    }
+
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",

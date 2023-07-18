@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "animod:wip_log",
+    "animod:stripped_wip_log",
+    "animod:wip_wood",
+    "animod:stripped_wip_wood"
+  ]
+}

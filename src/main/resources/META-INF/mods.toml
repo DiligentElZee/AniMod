@@ -25,7 +25,7 @@ modId="animod" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.1-1.19.3" #mandatory
+version="0.0.5-1.19.3" #mandatory
 
  # A display name for the mod
 displayName="AniMod" #mandatory
@@ -34,7 +34,7 @@ displayName="AniMod" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://discord.gg/66DnQxKcYy/" #optional
+displayURL="https://github.com/DiligentElZee/AniMod1.19.3" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
