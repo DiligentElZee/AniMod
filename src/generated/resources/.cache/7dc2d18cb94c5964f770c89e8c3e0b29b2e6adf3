@@ -1,4 +1,7 @@
-// 1.19.3	2023-07-18T12:39:12.951037	Block States: animod
+// 1.19.3	2023-07-18T19:53:52.618522	Block States: animod
+1888f5dfa5f9b83e929b59c334028f8185832019 assets/animod/blockstates/deepslate_placeholder_ore.json
+aeeeef1d069a3f66351a2af00f6811385a84efe8 assets/animod/blockstates/endstone_placeholder_ore.json
+5a07490f47589ce4046b580073f7ab4649f41d60 assets/animod/blockstates/netherrack_placeholder_ore.json
 269dc1fa9109a1e325c4fffe0efcb3962c6dd787 assets/animod/blockstates/placeholder_block.json
 d877f96c57711c21b09a96364315ec5dca41cce0 assets/animod/blockstates/placeholder_ore.json
 ad8f76140bbf861ebc9e3c40a9a970372b957949 assets/animod/blockstates/stripped_wip_log.json
@@ -8,6 +11,9 @@ e5f893d5aef34214b4e738a788dfcddd0921ca5f assets/animod/blockstates/wip_log.json
 87e3974375a8a6afa7ebcba2d7646ca4c6b35430 assets/animod/blockstates/wip_planks.json
 8245660219c6dfa4190b833f6291ef16bbc1c48c assets/animod/blockstates/wip_sapling.json
 839e03e9fb2a53505f7b71334287ba2ef54fdd4f assets/animod/blockstates/wip_wood.json
+7da47d5d9b56fce5d864b2d342e32da6f1c13bcc assets/animod/models/block/deepslate_placeholder_ore.json
+0a1a04bf8e179a8b511b87fa605b9c9a1ac2b35e assets/animod/models/block/endstone_placeholder_ore.json
+ae3311f260860f243a6033b97c42f24cb72e4857 assets/animod/models/block/netherrack_placeholder_ore.json
 171bf00bad0360d54be9a5f6be0f0c344c9ba98f assets/animod/models/block/placeholder_block.json
 4817628b8c3ff9572ef8c30224cfe5a0d0ff3bc3 assets/animod/models/block/placeholder_ore.json
 0c3b946e3333d19867c0cb66e7924da20715dfc3 assets/animod/models/block/stripped_wip_log.json
@@ -21,6 +27,9 @@ f3da6e21d7614c978785963ef0762f5c30862aa3 assets/animod/models/block/wip_log.json
 85198bd4a9b50a17d709e1dac8ca9b9f7a5b8690 assets/animod/models/block/wip_sapling.json
 f5585c5a1aee04ff5e308a01a8bc8a7209a271ce assets/animod/models/block/wip_wood.json
 a54b6495785c94c15c96c1cab8d2d5a7f9717b96 assets/animod/models/block/wip_wood_horizontal.json
+6cb5617e7545e6e1120a21f2ff77f095ed477ad2 assets/animod/models/item/deepslate_placeholder_ore.json
+8f271528ce2fecd1d555d8986689e54e43dc0a75 assets/animod/models/item/endstone_placeholder_ore.json
+25c056f6e09c2616738e610e4d4c6bc876f1cf4b assets/animod/models/item/netherrack_placeholder_ore.json
 1f1cb9a6c47c6bf78cc08e4e2b0c989826841586 assets/animod/models/item/placeholder_block.json
 0e4da2291892a89b52706ef8b717b326ec634830 assets/animod/models/item/placeholder_ore.json
 7196c23eacc79451d2196ede16e125750b20b1c8 assets/animod/models/item/stripped_wip_log.json

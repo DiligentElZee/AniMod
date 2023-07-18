@@ -19,6 +19,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.PLACEHOLDER_BLOCK);
+        blockWithItem(ModBlocks.NETHERRACK_PLACEHOLDER_ORE);
+        blockWithItem(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
         blockWithItem(ModBlocks.PLACEHOLDER_ORE);
 
         logBlock(((RotatedPillarBlock) ModBlocks.WIP_LOG.get()));

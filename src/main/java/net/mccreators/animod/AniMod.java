@@ -53,6 +53,9 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
+            event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.NETHERRACK_PLACEHOLDER_ORE);
 
             event.accept(ModBlocks.WIP_SAPLING);
             event.accept(ModBlocks.WIP_LOG);
@@ -70,6 +73,10 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
+            event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.NETHERRACK_PLACEHOLDER_ORE);
+
             event.accept(ModBlocks.WIP_SAPLING);
             event.accept(ModBlocks.WIP_LOG);
             event.accept(ModBlocks.STRIPPED_WIP_LOG);
@@ -81,6 +88,10 @@ public class AniMod {
 
         if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.PLACEHOLDER_ORE);
+            event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
+            event.accept(ModBlocks.NETHERRACK_PLACEHOLDER_ORE);
+
             event.accept(ModBlocks.WIP_SAPLING);
             event.accept(ModBlocks.WIP_LOG);
             event.accept(ModBlocks.STRIPPED_WIP_LOG);

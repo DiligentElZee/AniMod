@@ -32,21 +32,30 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.PLANT)
                     .strength(1f)));
     public static final RegistryObject<Block> PLACEHOLDER_ORE = registerBlock("placeholder_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.AIR)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> DEEPSLATE_PLACEHOLDER_ORE = registerBlock("deepslate_placeholder_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
+    public static final RegistryObject<Block> NETHERRACK_PLACEHOLDER_ORE = registerBlock("netherrack_placeholder_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.3f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
+    public static final RegistryObject<Block> ENDSTONE_PLACEHOLDER_ORE = registerBlock("endstone_placeholder_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)));
 
     public static final RegistryObject<Block> WIP_LOG = registerBlock("wip_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)
-                    .strength(5f).requiresCorrectToolForDrops()));
+                    .strength(2f)));
     public static final RegistryObject<Block> WIP_WOOD = registerBlock("wip_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
-                    .strength(5f).requiresCorrectToolForDrops()));
+                    .strength(2f)));
     public static final RegistryObject<Block> STRIPPED_WIP_LOG = registerBlock("stripped_wip_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)
-                    .strength(5f).requiresCorrectToolForDrops()));
+                    .strength(2f)));
     public static final RegistryObject<Block> STRIPPED_WIP_WOOD = registerBlock("stripped_wip_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)
-                    .strength(5f).requiresCorrectToolForDrops()));
+                    .strength(2f)));
 
     public static final RegistryObject<Block> WIP_PLANKS = registerBlock("wip_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)

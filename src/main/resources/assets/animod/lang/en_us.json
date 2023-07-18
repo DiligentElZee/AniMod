@@ -2,7 +2,12 @@
   "item.animod.placeholder": "Placeholder",
   "item.animod.small_placeholder": "Small Placeholder",
   "block.animod.placeholder_block": "Placeholder Block",
+
   "block.animod.placeholder_ore": "Placeholder Ore",
+  "block.animod.deepslate_placeholder_ore": "Deepslate Placeholder Ore",
+  "block.animod.netherrack_placeholder_ore": "Netherrack Placeholder Ore",
+  "block.animod.endstone_placeholder_ore": "Endstone Placeholder Ore",
+
   "creativemodetab.animod_tab": "AniMod Tab",
 
   "block.animod.wip_log": "WIP Log",

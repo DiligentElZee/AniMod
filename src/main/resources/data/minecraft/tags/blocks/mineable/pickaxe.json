@@ -1,5 +1,8 @@
 {
   "values": [
-    "animod:placeholder_ore"
+    "animod:placeholder_ore",
+    "animod:deepslate_placeholder_ore",
+    "animod:netherrack_placeholder_ore",
+    "animod:endstone_placeholder_ore"
   ]
 }
