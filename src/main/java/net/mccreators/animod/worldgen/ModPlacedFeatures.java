@@ -23,7 +23,7 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, WIP_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.WIP_KEY),
-                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.2f, 2), ModBlocks.WIP_SAPLING.get()));
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.2f, 1), ModBlocks.WIP_SAPLING.get()));
     }
 
 
