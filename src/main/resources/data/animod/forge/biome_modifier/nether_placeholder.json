@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "animod:nether_placeholder_placed",
+  "step": "underground_ores"
+}
