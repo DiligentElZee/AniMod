@@ -61,28 +61,16 @@ public class AniMod {
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
 
-            event.accept(ModBlocks.WIP_SAPLING);
-            event.accept(ModBlocks.WIP_LOG);
-            event.accept(ModBlocks.STRIPPED_WIP_LOG);
-            event.accept(ModBlocks.WIP_WOOD);
-            event.accept(ModBlocks.STRIPPED_WIP_WOOD);
-            event.accept(ModBlocks.WIP_LEAVES);
-            event.accept(ModBlocks.WIP_PLANKS);
         }
 
         if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.WIP_SAPLING);
-            event.accept(ModBlocks.WIP_LOG);
-            event.accept(ModBlocks.STRIPPED_WIP_LOG);
-            event.accept(ModBlocks.WIP_WOOD);
-            event.accept(ModBlocks.STRIPPED_WIP_WOOD);
-            event.accept(ModBlocks.WIP_LEAVES);
             event.accept(ModBlocks.PLACEHOLDER_ORE);
+
         }
 
         if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
-            event.accept(ModBlocks.WIP_PLANKS);
+
         }
     }
         // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

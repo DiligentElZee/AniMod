@@ -21,7 +21,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
-        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.PLACEHOLDER.get(), RecipeCategory.MISC,
+        nineBlockStorageRecipes(consumer, RecipeCategory.MISC, ModItems.PLACEHOLDER.get(), RecipeCategory.BUILDING_BLOCKS,
                 ModBlocks.PLACEHOLDER_BLOCK.get());
 
          ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SMALL_PLACEHOLDER.get())

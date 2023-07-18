@@ -21,15 +21,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.PLACEHOLDER_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.PLACEHOLDER_ORE.get(), ModItems.SMALL_PLACEHOLDER.get()));
 
-        this.dropSelf(ModBlocks.WIP_LOG.get());
-        this.dropSelf(ModBlocks.WIP_WOOD.get());
-        this.dropSelf(ModBlocks.WIP_PLANKS.get());
-        this.dropSelf(ModBlocks.STRIPPED_WIP_WOOD.get());
-        this.dropSelf(ModBlocks.STRIPPED_WIP_LOG.get());
-        this.dropSelf(ModBlocks.WIP_SAPLING.get());
-
-        this.add(ModBlocks.WIP_LEAVES.get(), (block) ->
-                createLeavesDrops(block, ModBlocks.WIP_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     @Override
