@@ -22,6 +22,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PLACEHOLDER);
         simpleItem(ModItems.SMALL_PLACEHOLDER);
         saplingItem(ModBlocks.WIP_SAPLING);
+
+        withExistingParent(ModItems.WIP_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

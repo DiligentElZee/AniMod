@@ -1,0 +1,77 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "legs",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "side_legs",
+					"parent": "legs",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "east",
+					"parent": "side_legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -1], "size": [7, 2, 2], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "west",
+					"parent": "side_legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [7, 2, 2], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "frontback_legs",
+					"parent": "legs",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "north",
+					"parent": "frontback_legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, -8], "size": [2, 2, 7], "uv": [8, 8]}
+					]
+				},
+				{
+					"name": "south",
+					"parent": "frontback_legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, 1], "size": [2, 2, 7], "uv": [8, 8]}
+					]
+				},
+				{
+					"name": "neck",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, -1], "size": [2, 7, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 7, -1], "size": [12, 7, 2], "uv": [19, 0]}
+					]
+				}
+			]
+		}
+	]
+}

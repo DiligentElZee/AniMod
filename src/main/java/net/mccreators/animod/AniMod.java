@@ -2,9 +2,11 @@ package net.mccreators.animod;
 
 import com.mojang.logging.LogUtils;
 import net.mccreators.animod.block.ModBlocks;
+import net.mccreators.animod.entity.ModEntities;
+import net.mccreators.animod.entity.client.WIPRenderer;
 import net.mccreators.animod.item.ModCreativeModeTabs;
 import net.mccreators.animod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,7 @@ public class AniMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -70,6 +73,8 @@ public class AniMod {
             event.accept(ModItems.PLACEHOLDER);
             event.accept(ModItems.SMALL_PLACEHOLDER);
 
+            event.accept(ModItems.WIP_SPAWN_EGG);
+
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
@@ -105,13 +110,16 @@ public class AniMod {
 
             event.accept(ModBlocks.WIP_PLANKS);
         }
+        if (event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
+            event.accept(ModItems.WIP_SPAWN_EGG);
+        }
     }
         // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
         @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
         public static class ClientModEvents {
             @SubscribeEvent
             public static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
+                EntityRenderers.register(ModEntities.WIP_ENTITY.get(), WIPRenderer::new);
+            }
     }
 }

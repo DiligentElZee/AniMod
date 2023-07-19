@@ -1,8 +1,8 @@
-// 1.19.3	2023-07-18T22:37:51.855816	Registries
+// 1.19.4	2023-07-19T19:42:35.104047	Registries
 89a5adf2ed8527b6369aeee420fc2776522e2472 data/animod/worldgen/configured_feature/end_placeholder_ore.json
 ef33063637a1f2c3df6b344ebf45efe14dd8ae0f data/animod/worldgen/configured_feature/nether_placeholder_ore.json
 98a54413e3be7e4f1cb6d0cde5dceb75a8852558 data/animod/worldgen/configured_feature/placeholder_ore.json
-1e9958bbd46c272e8c3e83e8cd22b95242e736b8 data/animod/worldgen/configured_feature/wip.json
+fe71e291393e2db1d7906d0ccef27f8ce76a793b data/animod/worldgen/configured_feature/wip.json
 ee1b9777a272775612e5dc0ed891b140f4ad431e data/animod/worldgen/placed_feature/end_placeholder_placed.json
 f156e74a002f67bc5c40fb7c963c3e6bc658d61b data/animod/worldgen/placed_feature/nether_placeholder_placed.json
 f043b294e960008d55ce622f0615d2bca981d4c1 data/animod/worldgen/placed_feature/placeholder_placed.json

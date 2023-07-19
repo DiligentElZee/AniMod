@@ -1,7 +1,10 @@
 {
   "item.animod.placeholder": "Placeholder",
   "item.animod.small_placeholder": "Small Placeholder",
+  "item.animod.wip_spawn_egg": "WIP Spawn Egg",
+
   "block.animod.placeholder_block": "Placeholder Block",
+
 
   "block.animod.placeholder_ore": "Placeholder Ore",
   "block.animod.deepslate_placeholder_ore": "Deepslate Placeholder Ore",

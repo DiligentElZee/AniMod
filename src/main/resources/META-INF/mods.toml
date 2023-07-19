@@ -25,7 +25,7 @@ modId="animod" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.0.9-1.19.3" #mandatory
+version="0.0.11-1.19.4" #mandatory
 
  # A display name for the mod
 displayName="AniMod" #mandatory
@@ -55,15 +55,13 @@ authors="Diligent ElZee (Main script), Oxses_ (Model animations), Ceceka_1 (Mode
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+A fun mod, currently still being worked on! (Nothing fun in it yet)
 
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+It'll take some time.
 '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.animod]] #optional
 
     # the modid of the dependency
     modId="forge" #mandatory
@@ -79,9 +77,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
+[[dependencies.animod]] #optional
+    modId="geckolib" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[4.1.2,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
 
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.animod]]
     modId="minecraft"
     mandatory=true
 
