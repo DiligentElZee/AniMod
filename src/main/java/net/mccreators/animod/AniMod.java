@@ -55,6 +55,8 @@ public class AniMod {
 
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
+            event.accept(ModItems.PLACEHOLDER_STAFF);
+
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
             event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
@@ -73,14 +75,16 @@ public class AniMod {
             event.accept(ModItems.PLACEHOLDER);
             event.accept(ModItems.SMALL_PLACEHOLDER);
 
-            event.accept(ModItems.WIP_SPAWN_EGG);
-
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
+
+            event.accept(ModItems.PLACEHOLDER_STAFF);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
             event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
             event.accept(ModBlocks.NETHERRACK_PLACEHOLDER_ORE);
+
+            event.accept(ModItems.WIP_SPAWN_EGG);
 
             event.accept(ModBlocks.WIP_SAPLING);
             event.accept(ModBlocks.WIP_LOG);
@@ -110,8 +114,13 @@ public class AniMod {
 
             event.accept(ModBlocks.WIP_PLANKS);
         }
+
         if (event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.WIP_SPAWN_EGG);
+        }
+
+        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.PLACEHOLDER_STAFF);
         }
     }
         // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

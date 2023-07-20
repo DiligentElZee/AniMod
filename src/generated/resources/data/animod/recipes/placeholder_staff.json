@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "animod:placeholder"
+    },
+    "Y": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "YXY",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "animod:placeholder_staff"
+  },
+  "show_notification": true
+}

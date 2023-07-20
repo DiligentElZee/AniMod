@@ -7,7 +7,11 @@ import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import javax.annotation.Nullable;
@@ -30,6 +34,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                          .of(ModItems.PLACEHOLDER.get()).build()))
                  .save(consumer);
 
+        planksFromLog(consumer, ModBlocks.WIP_PLANKS.get(), ModBlocks.WIP_LOG.get(), 4);
+        woodFromLogs(consumer, ModBlocks.WIP_WOOD.get(), ModBlocks.WIP_LOG.get());
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.STICK, 4)
+                .define('#', ModBlocks.WIP_PLANKS.get())
+                .pattern("#")
+                .pattern("#").group("sticks")
+                .unlockedBy("has_wip_planks", has(ItemTags.PLANKS))
+                .save(consumer);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PLACEHOLDER_STAFF.get())
+                .define('#', Items.STICK).define('X', ModItems.PLACEHOLDER.get()).define('Y', Items.DIAMOND)
+                .pattern("YXY")
+                .pattern(" # ")
+                .pattern(" # ")
+                .unlockedBy("has_placeholder", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PLACEHOLDER.get()).build()))
+                .save(consumer);
+
+
         // ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PLACEHOLDER.get())
         //         .define('B', ModItems.SMALL_PLACEHOLDER.get())
         //         .pattern("BBB")
@@ -38,6 +63,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //         .unlockedBy("has_small_placehoder", inventoryTrigger(ItemPredicate.Builder.item()
         //                 .of(ModItems.SMALL_PLACEHOLDER.get()).build()))
         //         .save(consumer);
+    }
+
+    private void planksFromLog(Consumer<FinishedRecipe> consumer, Block p259052, Block block, int p259471) {
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> p_249580_, RecipeCategory p_251203_, ItemLike p_251689_, RecipeCategory p_251376_, ItemLike p_248771_) {
