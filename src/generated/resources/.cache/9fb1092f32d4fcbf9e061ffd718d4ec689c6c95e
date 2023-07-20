@@ -1,10 +1,10 @@
-// 1.19.4	2023-07-20T22:07:50.882939	Recipes
+// 1.19.4	2023-07-20T22:22:07.542493	Recipes
 64cf2cf6c8263b7e7fbfbaa38029cebc78f716ce data/animod/advancements/recipes/building_blocks/wip_planks.json
 230e023d12047b858ca24b4e7338245d1592f87c data/animod/advancements/recipes/building_blocks/wip_wood.json
 b263d83dfa3d9c54a47c36e7a3a5005a1f587361 data/animod/advancements/recipes/misc/small_placeholder.json
 288bf4c4f5164449d43e2820cb0fd56af066149d data/animod/advancements/recipes/tools/placeholder_staff.json
 352c24dc85677b40e72b02144f80411a2dd32f3e data/animod/recipes/placeholder_staff.json
-cbfd21b30da66da6d00ddf3247aa0e7fc7ebda63 data/animod/recipes/small_placeholder.json
+258d7648264771017556a111a47ec0c1ffcb8453 data/animod/recipes/small_placeholder.json
 9f75d8a3e845d5fc42e360b47146e7b9885a5b10 data/animod/recipes/wip_planks.json
 93deaab56447ff4da6df6c3f3d1e81c9787e5e91 data/animod/recipes/wip_wood.json
 2ceb3a7e313b9e59eab746b5714e0e4fe692ba92 data/minecraft/advancements/recipes/building_blocks/placeholder_block_from_placeholders.json
