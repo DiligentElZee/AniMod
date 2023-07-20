@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "placeholder",
+  "key": {
+    "#": {
+      "item": "animod:small_placeholder"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "animod:placeholder"
+  },
+  "show_notification": true
+}

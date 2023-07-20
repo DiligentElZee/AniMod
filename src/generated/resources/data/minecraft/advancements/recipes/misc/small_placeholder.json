@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "animod:placeholder_block"
+        "recipe": "minecraft:small_placeholder"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "animod:placeholder_block"
+      "minecraft:small_placeholder"
     ]
   }
 }

@@ -25,16 +25,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
-        nineBlockStorageRecipes(consumer, RecipeCategory.MISC, ModItems.PLACEHOLDER.get(), RecipeCategory.BUILDING_BLOCKS,
-                ModBlocks.PLACEHOLDER_BLOCK.get());
+        nineBlockStorageRecipesWithCustomPacking(consumer, RecipeCategory.MISC, ModItems.SMALL_PLACEHOLDER.get(),
+                RecipeCategory.MISC, ModItems.PLACEHOLDER.get(),
+                "placeholder_from_small_placeholders", "placeholder");
 
-         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SMALL_PLACEHOLDER.get())
+        nineBlockStorageRecipesWithCustomPacking(consumer, RecipeCategory.MISC, ModItems.PLACEHOLDER.get(),
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.PLACEHOLDER_BLOCK.get(),
+                "placeholder_block_from_placeholders", "placeholder_block");
+
+         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SMALL_PLACEHOLDER.get(), 9)
                  .requires(ModItems.PLACEHOLDER.get())
                  .unlockedBy("has_placeholder", inventoryTrigger(ItemPredicate.Builder.item()
                          .of(ModItems.PLACEHOLDER.get()).build()))
                  .save(consumer);
 
-        planksFromLog(consumer, ModBlocks.WIP_PLANKS.get(), ModBlocks.WIP_LOG.get(), 4);
+         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WIP_PLANKS.get(), 4)
+                 .requires(ModBlocks.WIP_LOG.get())
+                 .unlockedBy("has_wip_log", has(ItemTags.LOGS))
+                 .save(consumer);
         woodFromLogs(consumer, ModBlocks.WIP_WOOD.get(), ModBlocks.WIP_LOG.get());
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.STICK, 4)
@@ -46,7 +54,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PLACEHOLDER_STAFF.get())
-                .define('#', Items.STICK).define('X', ModItems.PLACEHOLDER.get()).define('Y', Items.DIAMOND)
+                .define('#', Items.STICK).define('X', ModBlocks.PLACEHOLDER_BLOCK.get()).define('Y', Items.DIAMOND)
                 .pattern("YXY")
                 .pattern(" # ")
                 .pattern(" # ")

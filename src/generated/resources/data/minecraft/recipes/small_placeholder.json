@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "animod:placeholder"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "animod:small_placeholder"
+  }
+}
