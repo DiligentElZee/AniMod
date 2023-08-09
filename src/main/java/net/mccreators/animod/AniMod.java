@@ -2,10 +2,13 @@ package net.mccreators.animod;
 
 import com.mojang.logging.LogUtils;
 import net.mccreators.animod.block.ModBlocks;
+import net.mccreators.animod.block.entity.ModBlockEntities;
+import net.mccreators.animod.block.entity.client.AnimatedBlockRenderer;
 import net.mccreators.animod.entity.ModEntities;
 import net.mccreators.animod.entity.client.WIPRenderer;
 import net.mccreators.animod.item.ModCreativeModeTabs;
 import net.mccreators.animod.item.ModItems;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,6 +21,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(AniMod.MOD_ID)
@@ -32,7 +36,11 @@ public class AniMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
         ModEntities.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
+        GeckoLib.initialize();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -56,6 +64,7 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModItems.PLACEHOLDER_STAFF);
+            event.accept(ModBlocks.ROTATER);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
@@ -78,6 +87,7 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModItems.PLACEHOLDER_STAFF);
+            event.accept(ModBlocks.ROTATER);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
@@ -129,6 +139,7 @@ public class AniMod {
             @SubscribeEvent
             public static void onClientSetup(FMLClientSetupEvent event) {
                 EntityRenderers.register(ModEntities.WIP_ENTITY.get(), WIPRenderer::new);
+                BlockEntityRenderers.register(ModBlockEntities.ANIMATED_BLOCK_ENTITY.get(), AnimatedBlockRenderer::new);
             }
     }
 }

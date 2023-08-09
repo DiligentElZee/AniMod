@@ -1,6 +1,7 @@
 package net.mccreators.animod.block;
 
 import net.mccreators.animod.AniMod;
+import net.mccreators.animod.block.custom.AnimatedBlock;
 import net.mccreators.animod.block.custom.ModFlammableRotatedPillarBlock;
 import net.mccreators.animod.item.ModItems;
 import net.mccreators.animod.worldgen.tree.WIPTreeGrower;
@@ -92,6 +93,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> WIP_SAPLING = registerBlock("wip_sapling",
             () -> new SaplingBlock(new WIPTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> ROTATER = BLOCKS.register("rotating_block",
+            () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

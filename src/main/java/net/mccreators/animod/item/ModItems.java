@@ -1,7 +1,9 @@
 package net.mccreators.animod.item;
 
 import net.mccreators.animod.AniMod;
+import net.mccreators.animod.block.ModBlocks;
 import net.mccreators.animod.entity.ModEntities;
+import net.mccreators.animod.item.custom.AnimatedBlockItem;
 import net.mccreators.animod.item.custom.AnimatedItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -18,8 +20,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SMALL_PLACEHOLDER = ITEMS.register("small_placeholder",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PLACEHOLDER_STAFF = ITEMS.register("placeholder_staff",
             () -> new AnimatedItem(new Item.Properties()));
+    public static final RegistryObject<Item> ROTATER = ITEMS.register("rotating_block",
+            () -> new AnimatedBlockItem(ModBlocks.ROTATER.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> WIP_SPAWN_EGG = ITEMS.register("wip_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.WIP_ENTITY, 0x00ffcc, 0x00B08D,

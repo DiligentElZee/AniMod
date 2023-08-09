@@ -1,6 +1,7 @@
 package net.mccreators.animod.item;
 
 import net.mccreators.animod.AniMod;
+import net.mccreators.animod.block.ModBlocks;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,8 +17,7 @@ public class ModCreativeModeTabs {
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         ANIMOD_TAB = event.registerCreativeModeTab(new ResourceLocation(AniMod.MOD_ID, "animod_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.SMALL_PLACEHOLDER.get()))
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.ROTATER.get()))
                         .title(Component.translatable("creativemodetab.animod_tab")));
     }
 }
-

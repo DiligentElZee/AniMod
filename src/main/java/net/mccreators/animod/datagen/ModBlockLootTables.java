@@ -27,6 +27,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.NETHERRACK_PLACEHOLDER_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.NETHERRACK_PLACEHOLDER_ORE.get(), ModItems.SMALL_PLACEHOLDER.get()));
 
+        this.dropSelf(ModBlocks.ROTATER.get());
+
         this.dropSelf(ModBlocks.STRIPPED_WIP_LOG.get());
         this.dropSelf(ModBlocks.WIP_LOG.get());
         this.dropSelf(ModBlocks.WIP_PLANKS.get());
