@@ -23,7 +23,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> PLACEHOLDER_STAFF = ITEMS.register("placeholder_staff",
             () -> new AnimatedItem(new Item.Properties()));
-    public static final RegistryObject<Item> ROTATER = ITEMS.register("rotating_block",
+    public static final RegistryObject<Item> ROTATER_ITEM = ITEMS.register("rotating_block",
             () -> new AnimatedBlockItem(ModBlocks.ROTATER.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> WIP_SPAWN_EGG = ITEMS.register("wip_spawn_egg",

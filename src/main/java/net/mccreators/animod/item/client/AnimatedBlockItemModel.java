@@ -21,4 +21,3 @@ public class AnimatedBlockItemModel extends GeoModel<AnimatedBlockItem> {
         return new ResourceLocation(AniMod.MOD_ID, "animations/rotater.animation.json");
     }
 }
-

@@ -64,7 +64,7 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModItems.PLACEHOLDER_STAFF);
-            event.accept(ModBlocks.ROTATER);
+            event.accept(ModItems.ROTATER_ITEM);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);

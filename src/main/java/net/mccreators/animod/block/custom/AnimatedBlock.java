@@ -14,6 +14,7 @@ public class AnimatedBlock extends BaseEntityBlock {
     }
 
     @Nullable
+
     @Override
     public BlockEntity newBlockEntity(BlockPos blockPos, BlockState state) {
         return new AnimatedBlockEntity(blockPos, state);
