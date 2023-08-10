@@ -1,0 +1,24 @@
+{
+  "item.animod.placeholder": "Placehold'r",
+  "item.animod.small_placeholder": "Bawbling Placehold'r",
+  "item.animod.wip_spawn_egg": "Adder Stone o' WIP",
+  "item.animod.placeholder_staff": "Placehold'r Staff",
+
+  "block.animod.placeholder_block": "Placehold'r Block",
+  "block.animod.rotater": "Rotating Block",
+
+  "block.animod.placeholder_ore": "Placehold'r Ore",
+  "block.animod.deepslate_placeholder_ore": "Deepethslate Placehold'r Ore",
+  "block.animod.netherrack_placeholder_ore": "Neth'rrack Placehold'r Ore",
+  "block.animod.endstone_placeholder_ore": "Endstone Placehold'r Ore",
+
+  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "block.animod.wip_log": "WIP Log",
+  "block.animod.stripped_wip_log": "Hulled WIP Log",
+  "block.animod.wip_wood": "WIP Log",
+  "block.animod.stripped_wip_wood": "Hulled WIP Log",
+  "block.animod.wip_leaves": "WIP Leaves",
+  "block.animod.wip_sapling": "WIP Sapling",
+  "block.animod.wip_planks": "WIP Timber"
+}

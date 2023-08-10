@@ -1,0 +1,24 @@
+{
+  "item.animod.placeholder": "プレースホルダー",
+  "item.animod.small_placeholder": "小さいプレースホルダー",
+  "item.animod.wip_spawn_egg": "WIPのスポーンエッグ",
+  "item.animod.placeholder_staff": "プレースホルダーの杖",
+
+  "block.animod.placeholder_block": "プレースホルダーブロック",
+  "block.animod.rotater": "回転ブロック",
+
+  "block.animod.placeholder_ore": "プレースホルダー Ore",
+  "block.animod.deepslate_placeholder_ore": "ディープスレートプレースホルダー鉱石",
+  "block.animod.netherrack_placeholder_ore": "ネザープレースホルダー鉱石",
+  "block.animod.endstone_placeholder_ore": "エンドプレースホルダー鉱石",
+
+  "creativemodetab.animod_tab": "アニモッドタブ",
+
+  "block.animod.wip_log": "WIP丸太",
+  "block.animod.stripped_wip_log": "剥ぎ取ったWIP丸太",
+  "block.animod.wip_wood": "WIPの木",
+  "block.animod.stripped_wip_wood": "剥ぎ取ったWIPの木",
+  "block.animod.wip_leaves": "WIPの葉",
+  "block.animod.wip_sapling": "WIPの苗木",
+  "block.animod.wip_planks": "WIPの板林"
+}

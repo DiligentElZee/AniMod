@@ -1,0 +1,24 @@
+{
+  "item.animod.placeholder": "Placeholder",
+  "item.animod.small_placeholder": "Small Placeholder",
+  "item.animod.wip_spawn_egg": "WIP Making Ey",
+  "item.animod.placeholder_staff": "Placeholder Staff",
+
+  "block.animod.placeholder_block": "Placeholder Block",
+  "block.animod.rotater": "Spiing cleat",
+
+  "block.animod.placeholder_ore": "Placeholder Ore",
+  "block.animod.deepslate_placeholder_ore": "Deepslate Placeholder Ore",
+  "block.animod.netherrack_placeholder_ore": "Netherrack Placeholder Ore",
+  "block.animod.endstone_placeholder_ore": "Endstone Placeholder Ore",
+
+  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "block.animod.wip_log": "WIP Woodstem",
+  "block.animod.stripped_wip_log": "Stripped WIP Woodstem",
+  "block.animod.wip_wood": "WIP Wood",
+  "block.animod.stripped_wip_wood": "Stripped WIP Wood",
+  "block.animod.wip_leaves": "WIP Leaves",
+  "block.animod.wip_sapling": "WIP Sapling",
+  "block.animod.wip_planks": "WIP Boards"
+}

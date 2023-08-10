@@ -1,0 +1,24 @@
+{
+  "item.animod.placeholder": "Placeholder",
+  "item.animod.small_placeholder": "Small Placeholder",
+  "item.animod.wip_spawn_egg": "WIP jbeso'a",
+  "item.animod.placeholder_staff": "Placeholder Staff",
+
+  "block.animod.placeholder_block": "Placeholder bliku",
+  "block.animod.rotater": "Rotating bliku",
+
+  "block.animod.placeholder_ore": "Placeholder kunra",
+  "block.animod.deepslate_placeholder_ore": "cnoro'i ke Placeholder kunra",
+  "block.animod.netherrack_placeholder_ore": "me la .ne'er. Placeholder kunra",
+  "block.animod.endstone_placeholder_ore": ".endre rokci Placeholder kunra",
+
+  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "block.animod.wip_log": "WIP stani",
+  "block.animod.stripped_wip_log": "se pilvi'u WIP",
+  "block.animod.wip_wood": "WIP mudri",
+  "block.animod.stripped_wip_wood": "se pilvi'u WIP",
+  "block.animod.wip_leaves": "WIP pezli",
+  "block.animod.wip_sapling": "WIP ciftricu",
+  "block.animod.wip_planks": "WIP mudri tanbo"
+}

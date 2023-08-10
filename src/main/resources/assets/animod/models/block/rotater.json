@@ -1,6 +1,7 @@
 {
   "credit": "Made with Blockbench",
   "parent": "builtin/entity",
+  "particle": "textures/block/rotater",
   "texture_size": [
     64,
     64

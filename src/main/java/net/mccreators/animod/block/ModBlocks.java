@@ -95,7 +95,7 @@ public class ModBlocks {
             () -> new SaplingBlock(new WIPTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> ROTATER = BLOCKS.register("rotater",
-            () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).noOcclusion()));
+            () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).noOcclusion().noParticlesOnBreak()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

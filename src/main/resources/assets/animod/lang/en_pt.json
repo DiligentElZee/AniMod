@@ -1,0 +1,24 @@
+{
+  "item.animod.placeholder": "Placeholder",
+  "item.animod.small_placeholder": "Small Placeholder",
+  "item.animod.wip_spawn_egg": "WIP Cackle Fruit",
+  "item.animod.placeholder_staff": "Placeholder Staff",
+
+  "block.animod.placeholder_block": "Chunk o' Placeholders",
+  "block.animod.rotater": "Twistin' Chunk",
+
+  "block.animod.placeholder_ore": "Orrre o' Placeholders",
+  "block.animod.deepslate_placeholder_ore": "Tough Orrre o' Placeholders",
+  "block.animod.netherrack_placeholder_ore": "Devil's Placeholder Orrre",
+  "block.animod.endstone_placeholder_ore": "Hard Orrre o' Placeholders",
+
+  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "block.animod.wip_log": "Log o' WIP",
+  "block.animod.stripped_wip_log": "Bare Log o' WIP",
+  "block.animod.wip_wood": "WIP Timber",
+  "block.animod.stripped_wip_wood": "Bare WIP Timber",
+  "block.animod.wip_leaves": "Leaves o' WIP",
+  "block.animod.wip_sapling": "WIP Meager Shrub",
+  "block.animod.wip_planks": "Planks o' WIP"
+}
