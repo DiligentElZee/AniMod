@@ -1,10 +1,10 @@
-// 1.19.4	2023-08-09T19:39:45.224356	Loot Tables
+// 1.19.4	2023-08-10T20:02:42.988142	Loot Tables
 96c155c98c91af67fdc620521da10833724435d9 data/animod/loot_tables/blocks/deepslate_placeholder_ore.json
 e10794b0f774ec82dfdc57368b220a780b338d2d data/animod/loot_tables/blocks/endstone_placeholder_ore.json
 d31e562081f7deeea9bea77a2cbd1f1e0c0e9818 data/animod/loot_tables/blocks/netherrack_placeholder_ore.json
 86f27ac6aaa640344b35bc17dfd034ad3489ffdb data/animod/loot_tables/blocks/placeholder_block.json
 1714053053eea40e683bd168afcca3bafaf44974 data/animod/loot_tables/blocks/placeholder_ore.json
-714902ca6d1430344a202d66584f238b86a7d06b data/animod/loot_tables/blocks/rotating_block.json
+bd3a4d724c993b0888161f92b616a0636fb5857a data/animod/loot_tables/blocks/rotater.json
 c375295338630cb7cfc46c53d5cb508e9c170068 data/animod/loot_tables/blocks/stripped_wip_log.json
 ad5646e07489a8d058781e32a521e760e2b07dbb data/animod/loot_tables/blocks/stripped_wip_wood.json
 a05b19a7e0ac16f3f9f1664bd84f77908eda82f5 data/animod/loot_tables/blocks/wip_leaves.json

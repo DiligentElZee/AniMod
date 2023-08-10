@@ -94,7 +94,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> WIP_SAPLING = registerBlock("wip_sapling",
             () -> new SaplingBlock(new WIPTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
-    public static final RegistryObject<Block> ROTATER = BLOCKS.register("rotating_block",
+    public static final RegistryObject<Block> ROTATER = BLOCKS.register("rotater",
             () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).noOcclusion()));
 
 

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "animod:rotating_block"
+          "name": "animod:rotater"
         }
       ],
       "rolls": 1.0
