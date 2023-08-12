@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "Stripped WIP Wood",
   "block.animod.wip_leaves": "WIP Leaves",
   "block.animod.wip_sapling": "WIP Sapling",
-  "block.animod.wip_planks": "WIP Boards"
+  "block.animod.wip_planks": "WIP Boards",
+
+  "item.animod.amethyst_helmet": "Drunklak Helm",
+  "item.animod.amethyst_chestplate": "Drunklak Chestshield",
+  "item.animod.amethyst_leggings": "Drunklak Leggings",
+  "item.animod.amethyst_boots": "Drunklak Shoes"
 }

@@ -64,6 +64,11 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModItems.PLACEHOLDER_STAFF);
+            event.accept(ModItems.AMETHYST_HELMET);
+            event.accept(ModItems.AMETHYST_CHESPLATE);
+            event.accept(ModItems.AMETHYST_LEGGINGS);
+            event.accept(ModItems.AMETHYST_BOOTS);
+
             event.accept(ModItems.ROTATER_ITEM);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
@@ -87,6 +92,12 @@ public class AniMod {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModItems.PLACEHOLDER_STAFF);
+
+            event.accept(ModItems.AMETHYST_HELMET);
+            event.accept(ModItems.AMETHYST_CHESPLATE);
+            event.accept(ModItems.AMETHYST_LEGGINGS);
+            event.accept(ModItems.AMETHYST_BOOTS);
+
             event.accept(ModBlocks.ROTATER);
 
             event.accept(ModBlocks.PLACEHOLDER_ORE);
@@ -132,6 +143,11 @@ public class AniMod {
         if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.PLACEHOLDER_STAFF);
         }
+        if (event.getTab() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.AMETHYST_HELMET);
+            event.accept(ModItems.AMETHYST_CHESPLATE);
+            event.accept(ModItems.AMETHYST_LEGGINGS);
+            event.accept(ModItems.AMETHYST_BOOTS);        }
     }
         // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
         @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

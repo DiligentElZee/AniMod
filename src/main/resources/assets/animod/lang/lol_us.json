@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "Naked WIP Wuud",
   "block.animod.wip_leaves": "WIP salad",
   "block.animod.wip_sapling": "baby WIP",
-  "block.animod.wip_planks": "WIP bloc"
+  "block.animod.wip_planks": "WIP bloc",
+
+  "item.animod.amethyst_helmet": "Purpur shinee hat",
+  "item.animod.amethyst_chestplate": "Purpur shinee shirt",
+  "item.animod.amethyst_leggings": "Purpur sinee pants",
+  "item.animod.amethyst_boots": "Purpur shinee shooz"
 }

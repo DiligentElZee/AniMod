@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "pooM ԀIM pǝddᴉɹʇS",
   "block.animod.wip_leaves": "sǝʌɐǝ˥ ԀIM",
   "block.animod.wip_sapling": "ƃuᴉldɐS ԀIM",
-  "block.animod.wip_planks": "sʞuɐlԀ ԀIM"
+  "block.animod.wip_planks": "sʞuɐlԀ ԀIM",
+
+  "item.animod.amethyst_helmet": "Amethyst Helmet",
+  "item.animod.amethyst_chestplate": "Amethyst Chestplate",
+  "item.animod.amethyst_leggings": "Amethyst Leggings",
+  "item.animod.amethyst_boots": "Amethyst Boots"
 }

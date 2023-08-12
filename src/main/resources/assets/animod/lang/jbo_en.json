@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "se pilvi'u WIP",
   "block.animod.wip_leaves": "WIP pezli",
   "block.animod.wip_sapling": "WIP ciftricu",
-  "block.animod.wip_planks": "WIP mudri tanbo"
+  "block.animod.wip_planks": "WIP mudri tanbo",
+
+  "item.animod.amethyst_helmet": "Amethyst mapku",
+  "item.animod.amethyst_chestplate": "Amethyst creka",
+  "item.animod.amethyst_leggings": "Amethyst palku",
+  "item.animod.amethyst_boots": "Amethyst cutci"
 }

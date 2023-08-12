@@ -12,6 +12,10 @@
   "block.animod.netherrack_placeholder_ore": "Netherrack Placeholder Ore",
   "block.animod.endstone_placeholder_ore": "Endstone Placeholder Ore",
 
+  "item.animod.amethyst_helmet": "Amethyst Helmet",
+  "item.animod.amethyst_chestplate": "Amethyst Chestplate",
+  "item.animod.amethyst_leggings": "Amethyst Leggings",
+  "item.animod.amethyst_boots": "Amethyst Boots",
   "creativemodetab.animod_tab": "AniMod Tab",
 
   "block.animod.wip_log": "WIP Log",

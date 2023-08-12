@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "剥ぎ取ったWIPの木",
   "block.animod.wip_leaves": "WIPの葉",
   "block.animod.wip_sapling": "WIPの苗木",
-  "block.animod.wip_planks": "WIPの板林"
+  "block.animod.wip_planks": "WIPの板林",
+
+  "item.animod.amethyst_helmet": "アメジストのヘルメット",
+  "item.animod.amethyst_chestplate": "アメジストのチェストプレート",
+  "item.animod.amethyst_leggings": "アメジストレギンス",
+  "item.animod.amethyst_boots": "アメジストブーツ"
 }

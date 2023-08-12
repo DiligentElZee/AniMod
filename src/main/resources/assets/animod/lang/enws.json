@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "Hulled WIP Log",
   "block.animod.wip_leaves": "WIP Leaves",
   "block.animod.wip_sapling": "WIP Sapling",
-  "block.animod.wip_planks": "WIP Timber"
+  "block.animod.wip_planks": "WIP Timber",
+
+  "item.animod.amethyst_helmet": "Amethyst Casque",
+  "item.animod.amethyst_chestplate": "Amethyst Brest Plate",
+  "item.animod.amethyst_leggings": "Amethyst Greaves",
+  "item.animod.amethyst_boots": "Amethyst Sabatons"
 }

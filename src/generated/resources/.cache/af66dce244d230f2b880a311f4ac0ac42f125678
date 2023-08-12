@@ -1,4 +1,8 @@
-// 1.19.4	2023-07-19T11:50:46.413222	Item Models: animod
+// 1.19.4	2023-08-12T20:51:14.921437	Item Models: animod
+cdb977e792f1113ff955672b9825e20969f53380 assets/animod/models/item/amethyst_boots.json
+489ec2bbababc5a163b2007b90060d31347f66a4 assets/animod/models/item/amethyst_chestplate.json
+47cdfb2c019bf6c2c66d84820d45e8fe551e5b02 assets/animod/models/item/amethyst_helmet.json
+aa27e37501324f2d5006a7803a6e324799afc969 assets/animod/models/item/amethyst_leggings.json
 b3f28bd3ef7319a6d639af97c9310baa044fcae6 assets/animod/models/item/placeholder.json
 0954e358cf149daf5cae47c56d8873d5b52d8ce6 assets/animod/models/item/small_placeholder.json
 11627fba063e465e92e1759ce51f9c7a85c79f08 assets/animod/models/item/wip_sapling.json

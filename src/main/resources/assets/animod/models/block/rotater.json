@@ -1,7 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "parent": "builtin/entity",
-  "particle": "textures/block/rotater",
+  "textures": {
+    "particle": "animod:block/rotater"
+  },
   "texture_size": [
     64,
     64

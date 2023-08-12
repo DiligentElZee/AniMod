@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "Bare WIP Timber",
   "block.animod.wip_leaves": "Leaves o' WIP",
   "block.animod.wip_sapling": "WIP Meager Shrub",
-  "block.animod.wip_planks": "Planks o' WIP"
+  "block.animod.wip_planks": "Planks o' WIP",
+
+  "item.animod.amethyst_helmet": "Helmet o' Shards o' Gem",
+  "item.animod.amethyst_chestplate": "Chestplate o' Shards o' Gem",
+  "item.animod.amethyst_leggings": "Greaves o' Shards o' Gem",
+  "item.animod.amethyst_boots": "Peg-leg o' Shards o' Gem"
 }

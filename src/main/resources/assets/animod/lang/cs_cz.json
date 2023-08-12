@@ -20,5 +20,10 @@
   "block.animod.stripped_wip_wood": "Odizolované WIP Dřevo",
   "block.animod.wip_leaves": "WIP Listy",
   "block.animod.wip_sapling": "WIP Sazenice",
-  "block.animod.wip_planks": "WIP Prnka"
+  "block.animod.wip_planks": "WIP Prnka",
+
+  "item.animod.amethyst_helmet": "Ametystová helma",
+  "item.animod.amethyst_chestplate": "Ametystové brnění",
+  "item.animod.amethyst_leggings": "Ametystové kalhoty",
+  "item.animod.amethyst_boots": "Amethstové boty"
 }
