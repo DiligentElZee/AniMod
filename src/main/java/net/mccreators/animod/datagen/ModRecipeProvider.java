@@ -50,7 +50,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_wip_planks", has(ItemTags.PLANKS))
                 .save(consumer);
 
-
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PLACEHOLDER_STAFF.get())
                 .define('#', Items.STICK).define('X', ModBlocks.PLACEHOLDER_BLOCK.get()).define('Y', Items.DIAMOND)
                 .pattern("YXY")
@@ -59,6 +58,38 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_placeholder", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.PLACEHOLDER.get()).build()))
                 .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_HELMET.get())
+                .define('#', Items.AMETHYST_SHARD)
+                .pattern("###")
+                .pattern("# #")
+                .unlockedBy("has_amethyst_shard", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.AMETHYST_SHARD).build()))
+                        .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_CHESPLATE.get())
+                .define('#', Items.AMETHYST_SHARD)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .unlockedBy("has_amethyst_shard", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.AMETHYST_SHARD).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_LEGGINGS.get())
+                .define('#', Items.AMETHYST_SHARD)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .unlockedBy("has_amethyst_shard", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.AMETHYST_SHARD).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.AMETHYST_BOOTS.get())
+                .define('#', Items.AMETHYST_SHARD)
+                .pattern("# #")
+                .pattern("# #")
+                .unlockedBy("has_amethyst_shard", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.AMETHYST_SHARD).build()))
+                .save(consumer);
+
 
 
         // ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PLACEHOLDER.get())
@@ -79,12 +110,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> p_250423_, RecipeCategory p_250083_, ItemLike p_250042_,
-                                                  RecipeCategory p_248977_, ItemLike p_251911_, String p_250475_, @Nullable String p_248641_,
+                                                  RecipeCategory p_248977_, ItemLike p_251911_, String p_250475_, @Nullable String group,
                                                   String p_252237_, @Nullable String p_250414_) {
         ShapelessRecipeBuilder.shapeless(p_250083_, p_250042_, 9).requires(p_251911_).group(p_250414_).unlockedBy(getHasName(p_251911_), has(p_251911_))
                 .save(p_250423_, new ResourceLocation(AniMod.MOD_ID, p_252237_));
         ShapedRecipeBuilder.shaped(p_248977_, p_251911_).define('#', p_250042_)
-                .pattern("###").pattern("###").pattern("###").group(p_248641_)
+                .pattern("###").pattern("###").pattern("###").group(group)
                 .unlockedBy(getHasName(p_250042_), has(p_250042_)).save(p_250423_, new ResourceLocation(AniMod.MOD_ID, p_250475_));
     }
 }
