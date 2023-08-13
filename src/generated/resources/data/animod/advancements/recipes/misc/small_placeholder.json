@@ -30,5 +30,6 @@
     "recipes": [
       "animod:small_placeholder"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

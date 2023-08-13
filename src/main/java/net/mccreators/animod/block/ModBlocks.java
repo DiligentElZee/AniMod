@@ -4,6 +4,7 @@ import net.mccreators.animod.AniMod;
 import net.mccreators.animod.block.custom.AnimatedBlock;
 import net.mccreators.animod.block.custom.ModFlammableRotatedPillarBlock;
 import net.mccreators.animod.item.ModItems;
+import net.mccreators.animod.sound.ModSounds;
 import net.mccreators.animod.worldgen.tree.WIPTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -14,7 +15,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,20 +27,20 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, AniMod.MOD_ID);
 
     public static final RegistryObject<Block> PLACEHOLDER_BLOCK = registerBlock("placeholder_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.PLANT)
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)
                     .strength(1f)));
     public static final RegistryObject<Block> PLACEHOLDER_ORE = registerBlock("placeholder_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_PLACEHOLDER_ORE = registerBlock("deepslate_placeholder_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
     public static final RegistryObject<Block> NETHERRACK_PLACEHOLDER_ORE = registerBlock("netherrack_placeholder_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2.3f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE).requiresCorrectToolForDrops(),
+                    UniformInt.of(2, 6)));
     public static final RegistryObject<Block> ENDSTONE_PLACEHOLDER_ORE = registerBlock("endstone_placeholder_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).requiresCorrectToolForDrops(),
+                    UniformInt.of(4, 8)));
 
     public static final RegistryObject<Block> WIP_LOG = registerBlock("wip_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)
@@ -95,7 +95,8 @@ public class ModBlocks {
             () -> new SaplingBlock(new WIPTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> ROTATER = BLOCKS.register("rotater",
-            () -> new AnimatedBlock(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).noOcclusion()));
+            () -> new AnimatedBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN).sound(ModSounds.ROTATING_BLOCK_SOUNDS)
+                    .strength(1f).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

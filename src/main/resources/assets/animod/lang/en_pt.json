@@ -12,8 +12,6 @@
   "block.animod.netherrack_placeholder_ore": "Devil's Placeholder Orrre",
   "block.animod.endstone_placeholder_ore": "Hard Orrre o' Placeholders",
 
-  "creativemodetab.animod_tab": "AniMod Tab",
-
   "block.animod.wip_log": "Log o' WIP",
   "block.animod.stripped_wip_log": "Bare Log o' WIP",
   "block.animod.wip_wood": "WIP Timber",
@@ -25,5 +23,13 @@
   "item.animod.amethyst_helmet": "Helmet o' Shards o' Gem",
   "item.animod.amethyst_chestplate": "Chestplate o' Shards o' Gem",
   "item.animod.amethyst_leggings": "Greaves o' Shards o' Gem",
-  "item.animod.amethyst_boots": "Peg-leg o' Shards o' Gem"
+  "item.animod.amethyst_boots": "Peg-leg o' Shards o' Gem",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Weapons",
+  "creativemodetab.animod_building_blocks": "AniMod Construction Blocks",
+  "creativemodetab.animod_items": "AniMod Chef's Secrets",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

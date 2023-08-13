@@ -30,5 +30,6 @@
     "recipes": [
       "animod:amethyst_boots"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

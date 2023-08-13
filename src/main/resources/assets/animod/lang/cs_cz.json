@@ -12,7 +12,10 @@
   "block.animod.netherrack_placeholder_ore": "Netherrack Zástupný Ore",
   "block.animod.endstone_placeholder_ore": "Endstone Zástupný Ore",
 
-  "creativemodetab.animod_tab": "AniMod",
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Boj",
+  "creativemodetab.animod_building_blocks": "AniMod Stavební Bloky",
+  "creativemodetab.animod_items": "AniMod Suroviny",
 
   "block.animod.wip_log": "WIP Kláda",
   "block.animod.stripped_wip_log": "Odizolovaná WIP Kláda",
@@ -25,5 +28,8 @@
   "item.animod.amethyst_helmet": "Ametystová helma",
   "item.animod.amethyst_chestplate": "Ametystové brnění",
   "item.animod.amethyst_leggings": "Ametystové kalhoty",
-  "item.animod.amethyst_boots": "Amethstové boty"
+  "item.animod.amethyst_boots": "Ametystové boty",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

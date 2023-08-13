@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:placeholder"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

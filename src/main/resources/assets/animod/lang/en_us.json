@@ -16,7 +16,11 @@
   "item.animod.amethyst_chestplate": "Amethyst Chestplate",
   "item.animod.amethyst_leggings": "Amethyst Leggings",
   "item.animod.amethyst_boots": "Amethyst Boots",
-  "creativemodetab.animod_tab": "AniMod Tab",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Combat",
+  "creativemodetab.animod_building_blocks": "AniMod Building Blocks",
+  "creativemodetab.animod_items": "AniMod Items",
 
   "block.animod.wip_log": "WIP Log",
   "block.animod.stripped_wip_log": "Stripped WIP Log",
@@ -24,5 +28,8 @@
   "block.animod.stripped_wip_wood": "Stripped WIP Wood",
   "block.animod.wip_leaves": "WIP Leaves",
   "block.animod.wip_sapling": "WIP Sapling",
-  "block.animod.wip_planks": "WIP Planks"
+  "block.animod.wip_planks": "WIP Planks",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

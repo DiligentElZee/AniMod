@@ -8,12 +8,13 @@ import net.mccreators.animod.entity.ModEntities;
 import net.mccreators.animod.entity.client.WIPRenderer;
 import net.mccreators.animod.item.ModCreativeModeTabs;
 import net.mccreators.animod.item.ModItems;
+import net.mccreators.animod.sound.ModSounds;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -34,11 +35,15 @@ public class AniMod {
     public AniMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         ModEntities.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         GeckoLib.initialize();
 
@@ -56,8 +61,8 @@ public class AniMod {
 
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == CreativeModeTabs.SEARCH) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.SEARCH) {
             event.accept(ModItems.PLACEHOLDER);
             event.accept(ModItems.SMALL_PLACEHOLDER);
 
@@ -83,9 +88,11 @@ public class AniMod {
             event.accept(ModBlocks.STRIPPED_WIP_WOOD);
             event.accept(ModBlocks.WIP_LEAVES);
             event.accept(ModBlocks.WIP_PLANKS);
+
+            event.accept(ModItems.TEST_GIORNO_GIOVANNA_MUSIC_DISC);
         }
 
-        if (event.getTab() == ModCreativeModeTabs.ANIMOD_TAB) {
+        if (event.getTab() == ModCreativeModeTabs.ANIMOD_ALL.get()) {
             event.accept(ModItems.PLACEHOLDER);
             event.accept(ModItems.SMALL_PLACEHOLDER);
 
@@ -115,8 +122,27 @@ public class AniMod {
             event.accept(ModBlocks.WIP_LEAVES);
             event.accept(ModBlocks.WIP_PLANKS);
         }
+        if (event.getTab() == ModCreativeModeTabs.ANIMOD_BUILDING_BLOCKS.get()) {
+            event.accept(ModBlocks.PLACEHOLDER_BLOCK);
+            event.accept(ModBlocks.ROTATER);
+            event.accept(ModBlocks.WIP_WOOD);
+            event.accept(ModBlocks.STRIPPED_WIP_WOOD);
+            event.accept(ModBlocks.STRIPPED_WIP_LOG);
+            event.accept(ModBlocks.WIP_PLANKS);
+        }
+        if (event.getTab() == ModCreativeModeTabs.ANIMOD_ITEMS.get()) {
+            event.accept(ModItems.PLACEHOLDER);
+            event.accept(ModItems.SMALL_PLACEHOLDER);
+            event.accept(ModItems.PLACEHOLDER_STAFF);
+        }
+        if (event.getTab() == ModCreativeModeTabs.ANIMOD_COMBAT.get()) {
+            event.accept(ModItems.AMETHYST_HELMET);
+            event.accept(ModItems.AMETHYST_CHESPLATE);
+            event.accept(ModItems.AMETHYST_LEGGINGS);
+            event.accept(ModItems.AMETHYST_BOOTS);
+        }
 
-        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.PLACEHOLDER_ORE);
             event.accept(ModBlocks.ENDSTONE_PLACEHOLDER_ORE);
             event.accept(ModBlocks.DEEPSLATE_PLACEHOLDER_ORE);
@@ -130,20 +156,21 @@ public class AniMod {
             event.accept(ModBlocks.WIP_LEAVES);
         }
 
-        if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.PLACEHOLDER_BLOCK);
 
             event.accept(ModBlocks.WIP_PLANKS);
         }
 
-        if (event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
+        if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.WIP_SPAWN_EGG);
         }
 
-        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.TEST_GIORNO_GIOVANNA_MUSIC_DISC);
             event.accept(ModItems.PLACEHOLDER_STAFF);
         }
-        if (event.getTab() == CreativeModeTabs.COMBAT) {
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.AMETHYST_HELMET);
             event.accept(ModItems.AMETHYST_CHESPLATE);
             event.accept(ModItems.AMETHYST_LEGGINGS);

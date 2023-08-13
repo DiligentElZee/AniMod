@@ -12,8 +12,6 @@
   "block.animod.netherrack_placeholder_ore": "me la .ne'er. Placeholder kunra",
   "block.animod.endstone_placeholder_ore": ".endre rokci Placeholder kunra",
 
-  "creativemodetab.animod_tab": "AniMod Tab",
-
   "block.animod.wip_log": "WIP stani",
   "block.animod.stripped_wip_log": "se pilvi'u WIP",
   "block.animod.wip_wood": "WIP mudri",
@@ -25,5 +23,13 @@
   "item.animod.amethyst_helmet": "Amethyst mapku",
   "item.animod.amethyst_chestplate": "Amethyst creka",
   "item.animod.amethyst_leggings": "Amethyst palku",
-  "item.animod.amethyst_boots": "Amethyst cutci"
+  "item.animod.amethyst_boots": "Amethyst cutci",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod damba tutci",
+  "creativemodetab.animod_building_blocks": "AniMod zbasu bliku",
+  "creativemodetab.animod_items": "AniMod Ingredients",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

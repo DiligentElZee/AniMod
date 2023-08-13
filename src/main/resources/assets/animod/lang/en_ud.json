@@ -12,8 +12,6 @@
   "block.animod.netherrack_placeholder_ore": "ǝɹO ɹǝploɥǝɔɐlԀ ʞɔɐɹɹǝɥʇǝN",
   "block.animod.endstone_placeholder_ore": "ǝɹO ɹǝploɥǝɔɐlԀ ǝuoʇspuƎ",
 
-  "creativemodetab.animod_tab": "qɐ┴ poWᴉu∀",
-
   "block.animod.wip_log": "ƃo˥ ԀIM",
   "block.animod.stripped_wip_log": "ƃo˥ ԀIM pǝddᴉɹʇS",
   "block.animod.wip_wood": "pooM ԀIM",
@@ -25,5 +23,13 @@
   "item.animod.amethyst_helmet": "Amethyst Helmet",
   "item.animod.amethyst_chestplate": "Amethyst Chestplate",
   "item.animod.amethyst_leggings": "Amethyst Leggings",
-  "item.animod.amethyst_boots": "Amethyst Boots"
+  "item.animod.amethyst_boots": "Amethyst Boots",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Combat",
+  "creativemodetab.animod_building_blocks": "AniMod Building Blocks",
+  "creativemodetab.animod_items": "AniMod Items",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

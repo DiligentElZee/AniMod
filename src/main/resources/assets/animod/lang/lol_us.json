@@ -12,7 +12,6 @@
   "block.animod.netherrack_placeholder_ore": "Netherockz wif not dun",
   "block.animod.endstone_placeholder_ore": "Weird white rock wif not dun",
 
-  "creativemodetab.animod_tab": "AniMod Lizt",
 
   "block.animod.wip_log": "WIP Lawg",
   "block.animod.stripped_wip_log": "Naked WIP Lawg",
@@ -25,5 +24,13 @@
   "item.animod.amethyst_helmet": "Purpur shinee hat",
   "item.animod.amethyst_chestplate": "Purpur shinee shirt",
   "item.animod.amethyst_leggings": "Purpur sinee pants",
-  "item.animod.amethyst_boots": "Purpur shinee shooz"
+  "item.animod.amethyst_boots": "Purpur shinee shooz",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Combawt",
+  "creativemodetab.animod_building_blocks": "AniMod Build Blukz",
+  "creativemodetab.animod_items": "AniMod Kat Itumz",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Giorno Round Loud thing",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

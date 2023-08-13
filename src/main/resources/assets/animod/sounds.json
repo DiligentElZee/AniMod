@@ -1,0 +1,40 @@
+{
+  "rotating_block_break": {
+    "subtitle": "sounds.animod.rotating_block_break",
+    "sounds": [
+      "animod:rotating_block_break"
+    ]
+  },
+  "rotating_block_hit": {
+    "subtitle": "sounds.animod.rotating_block_hit",
+    "sounds": [
+      "animod:rotating_block_hit"
+    ]
+  },
+  "rotating_block_place": {
+    "subtitle": "sounds.animod.rotating_block_place",
+    "sounds": [
+      "animod:rotating_block_place"
+    ]
+  },
+  "rotating_block_walk": {
+    "subtitle": "sounds.animod.rotating_block_walk",
+    "sounds": [
+      "animod:rotating_block_walk"
+    ]
+  },
+  "rotate_sound": {
+    "subtitle": "sounds.animod.rotate_sound",
+    "sounds": [
+      "animod:rotate_sound"
+    ]
+  },
+  "test_giorno_giovanna": {
+    "sounds": [
+      {
+        "name": "animod:test_giorno_giovanna",
+        "stream": true
+      }
+    ]
+  }
+}

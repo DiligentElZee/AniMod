@@ -12,8 +12,6 @@
   "block.animod.netherrack_placeholder_ore": "ネザープレースホルダー鉱石",
   "block.animod.endstone_placeholder_ore": "エンドプレースホルダー鉱石",
 
-  "creativemodetab.animod_tab": "アニモッドタブ",
-
   "block.animod.wip_log": "WIP丸太",
   "block.animod.stripped_wip_log": "剥ぎ取ったWIP丸太",
   "block.animod.wip_wood": "WIPの木",
@@ -25,5 +23,13 @@
   "item.animod.amethyst_helmet": "アメジストのヘルメット",
   "item.animod.amethyst_chestplate": "アメジストのチェストプレート",
   "item.animod.amethyst_leggings": "アメジストレギンス",
-  "item.animod.amethyst_boots": "アメジストブーツ"
+  "item.animod.amethyst_boots": "アメジストブーツ",
+
+  "creativemodetab.animod_all": "AniMod",
+  "creativemodetab.animod_combat": "AniMod Combat",
+  "creativemodetab.animod_building_blocks": "AniMod Building Blocks",
+  "creativemodetab.animod_items": "AniMod Items",
+
+  "item.animod.test_giorno_giovanna_music_disc": "Test - Giorno Giovanna",
+  "item.animod.test_giorno_giovanna_music_disc.desc": "Giorno Giovanna theme, from JoJo pt6"
 }

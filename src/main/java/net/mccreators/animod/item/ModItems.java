@@ -6,8 +6,11 @@ import net.mccreators.animod.entity.ModEntities;
 import net.mccreators.animod.item.custom.AmethystArmorItem;
 import net.mccreators.animod.item.custom.AnimatedBlockItem;
 import net.mccreators.animod.item.custom.AnimatedItem;
+import net.mccreators.animod.sound.ModSounds;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -36,6 +39,10 @@ public class ModItems {
             () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
             () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> TEST_GIORNO_GIOVANNA_MUSIC_DISC = ITEMS.register("test_giorno_giovanna_music_disc",
+            () -> new RecordItem(15, ModSounds.TEST_GIORNO_GIOVANNA, new Item.Properties().stacksTo(1)
+                    .rarity(Rarity.RARE),600));
 
     public static final RegistryObject<Item> WIP_SPAWN_EGG = ITEMS.register("wip_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.WIP_ENTITY, 0x00B08D, 0x00ffcc,
